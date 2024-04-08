@@ -1,6 +1,6 @@
 # Bay Wheels GBFS Data Processing 
 
-This repository contains two Python scripts designed for processing Bay Wheels bike share data provided by Lyft for the Bay Area, including San Francisco, Oakland, and San Jose. These tools facilitate the retrieval and processing of both static and real-time General Bikeshare Feed Specification (GBFS) data, making it simpler for users to analyze bike share usage patterns, availability, and system health. Data available at (data license available at [Bay Wheels System Data](https://www.lyft.com/bikes/bay-wheels/system-data))
+This repository contains two Python scripts designed for processing Bay Wheels bike share data provided by Lyft for the Bay Area, including San Francisco, Oakland, and San Jose. These tools facilitate the retrieval and processing of both static and real-time General Bikeshare Feed Specification (GBFS) data, making it simpler for users to analyze bike share usage patterns, availability, and system health. Data available at [Bay Wheels System Data](https://www.lyft.com/bikes/bay-wheels/system-data)
 
 In addition to the above and as a case study, the static data from January 2021 to February 2024 was used to conduct a comparison between the performance of the Prophet and NeuralProphet forecasting models as well as their ensemble.
 
