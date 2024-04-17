@@ -2,7 +2,7 @@
 
 This repository contains two Python scripts designed for processing Bay Wheels bike share data provided by Lyft for the Bay Area, including San Francisco, Oakland, and San Jose. These tools facilitate the retrieval and processing of both static and real-time General Bikeshare Feed Specification (GBFS) data, making it simpler for users to analyze bike share usage patterns, availability, and system health. Data available at [Bay Wheels System Data](https://www.lyft.com/bikes/bay-wheels/system-data)
 
-In addition to the above and as a case study, the static data from January 2021 to February 2024 was used to conduct a comparison between the performance of the Prophet and NeuralProphet forecasting models as well as their ensemble.
+In addition to the above and as a case study, the static data from January 2021 to February 2024 was used to conduct a comparison between the performance of the Prophet and NeuralProphet forecasting models as well as their ensemble. 
 
 
 ## Case Study: Forecasting Bike Share Demand with Prophet, Neural Prophet, and Ensemble Methods
@@ -38,7 +38,8 @@ The study employed an 80:20 split for training and testing the models, with the 
 - Variance Analysis between Actual and Fitted Data
   ![Variance Comparison Placeholder](case_study/images/variance.png)
 
-This case study highlights the potential of ensemble methods in enhancing forecasting accuracy by combining the unique strengths of the Prophet and Neural Prophet models, particularly in scenarios characterized by high data variability.
+This case study highlights the potential of ensemble methods in enhancing forecasting accuracy by combining the unique strengths of the Prophet and Neural Prophet models, particularly in scenarios characterized by high data variability. The Prophet model was used to conduct a one year forecast. The results are available in an interesting
+[ Tableau dashboard](https://public.tableau.com/app/profile/erfan.hajibandeh/viz/BaywheelsBikeShareDashboard/Forecaster)
 
 ## Description
 
