@@ -21,9 +21,9 @@ The study employed an 80:20 split for training and testing the models, with the 
 
 ### Insights and Findings
 
-- The ensemble method somtimes performed on par or superior to both the Prophet and Neural Prophet models.
+- The Neural Prophet performed on par or superior to the Prophet model.
 - The Neural Prophet model displayed a pronounced sensitivity to data variance, attempting to capture fluctuations as accurately as possible.
-- An unconventional approach of averaging variances for supply and demand was adopted for comparative analysis, justified by the similarity of variances across clusters.
+
 
 ### Visualizations
 
